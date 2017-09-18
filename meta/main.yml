@@ -1,0 +1,12 @@
+galaxy_info:
+  author: Pratima Singh
+  description: Setup nginx repo
+  github_branch: master
+  min_ansible_version: 2.0
+
+  platforms:
+    - name: CentOs
+      versions:
+        - 6
+
+dependencies: []

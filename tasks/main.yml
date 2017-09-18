@@ -1,0 +1,6 @@
+---
+- name: Install nginx repo
+  copy:
+    src: nginx.repo
+    dest: "{{ repo_file_destination }}"
+    mode: 0644
